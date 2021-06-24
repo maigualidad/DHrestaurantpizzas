@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   }
+
+   body {
+       background-color: #E5E5E5;
+   }
+   
+
+header {
+    background-color: #222222;
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 4px 2px #999;
+}
+
+a:link, a:visited, a {
+
+    color: unset;
+    text-decoration: none;
+    background-color: none;
+}
+
+.lista {
+    display: inline-flex;
+    gap: 15px;
+}
+
+/* MAIN */
+
+.padre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.envio {
+    background-image: url('IMG/delivery.jpg');
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+}
+
+.envio h2 {
+    color: red;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.pizzas h2 {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.envio h2 span {
+    color: #FFF;
+}
+
+.pizzas {
+    background-color: #FFF;
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.pizzascayendo {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+
+h3 {
+    position: absolute;
+    top: 30%;
+    left: 15%; 
+    line-height: 3ex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol {
+    position: absolute;
+    top: 40%;
+    left: 15%; 
+    line-height: 3.5ex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222222;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+}
+
+ul {
+    line-height: 4ex;
+}
